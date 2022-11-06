@@ -10,7 +10,7 @@ body {
 .api_btn{
     color:#fff;
     background-color: rgb(10, 172, 118);;
-    margin:0 auto;
+    margin:30px auto;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -19,14 +19,21 @@ body {
     
 }
 /* ==========design part=========== */
-
-ul {
+.header{
     display: flex;
+    justify-content: space-between;
     background-color: rgb(10, 172, 118);
     padding: 0 100px;
     height: 100px;
-    justify-content: flex-end;
-    align-items: center
+    align-items: center;
+
+}
+ul {
+    display: flex;
+    
+    
+    
+    
 }
 
 ul li {
@@ -59,19 +66,22 @@ ul li a {
 
 /*============ photos ============= */
 .img-width {
-    width: 300px;
+    width: 400px;
 }
 
 .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width:1200px;
+    margin:0 auto;
+    grid-gap:30px;
 }
 
 .photo {
     border: 2px solid goldenrod;
     border-radius: 15px;
     /* background-color: rgba(165, 42, 42, 0.751); */
-    color: #fff;
+    /* color: #fff; */
     padding: 10px;
     margin: 5px;
 }
